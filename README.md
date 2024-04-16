@@ -37,7 +37,9 @@ The manipulator arm features the following components:
   
 - **Electrical Schemas**:
   - Schemas created in EasyEDA for the wiring and electronic components layout
-  
+  - Full BOM can be found:
+    <br>[For Manipulator](./schemas/Main%20Board/BOM_Manip.csv)
+    <br>[For Potentiometers](./schemas/Potentiometer/BOM_Potensiometers.csv)
 ## Folder Structure
 
 The repository is organized as follows:
