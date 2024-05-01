@@ -19,6 +19,22 @@ Use [PlatformIO](https://platformio.org/) in Visual Studio Code (VSCode) to mana
 
 This project is a homemade manipulator arm designed for educational purposes and hobbyist robotics enthusiasts. The arm is built using 3D-printed parts designed in SolidWorks and controlled using ESP32 microcontroller boards. The control methods include Bluetooth Low Energy (BLE) using the [RemoteXY](https://remotexy.com/) library or manual control using encoders (potentiometers).
 
+The kinematics of the manipulator are represented using the Denavit-Hartenberg (DH) notation as follows:
+
+| Link | a   | α (deg) | d     | θ (deg) |
+|------|-----|---------|-------|---------|
+| 0    | 0   | 90      | 94.85 | 90      |
+| 1    | 104 | 0       | 0     | 90      |
+| 2    | 104 | 0       | 0     | 0       |
+| 3    | 0   | 90      | -7.65 | 90      |
+| 4    | 0   | -90     | 66.6  | 0       |
+| 5    | 0   | 0       | 66.6  | 0       |
+
+- `a_i`: Represents the link length along the \(x_i\) axis.
+- `α_i`: Represents the twist angle about the \(x_i\) axis in degrees.
+- `d_i`: Represents the link offset along the \(z_{i-1}\) axis.
+- `θ_i`: Represents the joint angle about the \(z_{i-1}\) axis in degrees.
+
 ## Components
 
 The manipulator arm features the following components:
@@ -55,8 +71,10 @@ printing
 <br>&nbsp;&nbsp;&nbsp;&nbsp;    ├── [Main Board](./schemas/Main%20Board/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   # Electrical schemas created in EasyEDA for the robot control PCB
 <br>&nbsp;&nbsp;&nbsp;&nbsp;    ├── [Potentiometer Board](./schemas/Potentiometer/) &nbsp;&nbsp;&nbsp;&nbsp;  # Electrical schemas created in EasyEDA for the Potentiometer PCB
 <br> /[docs](./docs/) &nbsp;&nbsp;&nbsp;&nbsp; # Datasheets for some of the components
+<br> /[robodk](./robodk/) &nbsp;&nbsp;&nbsp;&nbsp; # Robodk station with the robot. Note: The movement of the manipulator in robodk is not exactly the same due to robodk mechanism build limitations.
 <br>/README.md                             
 ## Usage
+
 
 To replicate or modify this project, follow these steps:
 
@@ -82,6 +100,7 @@ To replicate or modify this project, follow these steps:
 
 5. **Control**:
    - Use the RemoteXY library for BLE control, or wire up potentiometers for manual control.
+
 
 ## Credits
 
