@@ -1,7 +1,7 @@
 #ifndef _myremotexy_h
 #define _myremotexy_h
 // you can enable debug logging to Serial at 115200
-#define REMOTEXY__DEBUGLOG    
+// #define REMOTEXY__DEBUGLOG    
 // RemoteXY select connection mode and include library 
 #define REMOTEXY_MODE__ESP32CORE_BLE
 #include <BLEDevice.h>
@@ -38,11 +38,11 @@ struct {
  
  void remotexy_setup()
  {
-      RemoteXY_Init (); 
+      RemoteXY_Init(); 
  }
 
  void remotexy_loop()
  {
-  RemoteXY_Handler ();
+  RemoteXY_Handler();
  }
  #endif

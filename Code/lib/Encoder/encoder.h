@@ -3,15 +3,15 @@
 
 #include <Arduino.h>
 
-struct EncoderPins
+struct EncoderPins  // 25, 33, 32, 35, 34, 39, 36
 {
     int Neck = 12;
     int Shoulder = 13;
     int Elbow = 14;
     int Wrist1 = 27;
     int Wrist2 = 26;
-    int Wrist3 = 15;  //25
-    int Gripper = 33;
+    int Wrist3 = 33;  
+    int Gripper = 25;
 };
 
 int angle_from_encoder(int encoder_pin)

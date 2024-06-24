@@ -28,7 +28,7 @@ MotorConfig motorConfigs[NUM_MOTORS] = {
     {MCPWM_UNIT_0, MCPWM_TIMER_2, 17, MCPWM2A},
     {MCPWM_UNIT_1, MCPWM_TIMER_0, 16, MCPWM0A},
     {MCPWM_UNIT_1, MCPWM_TIMER_1, 4, MCPWM1A},
-    {MCPWM_UNIT_1, MCPWM_TIMER_2, 2, MCPWM2A},
+    {MCPWM_UNIT_1, MCPWM_TIMER_2, 2, MCPWM2A},  //  change to 19
     {MCPWM_UNIT_1, MCPWM_TIMER_2, 15, MCPWM2B}
 };
 
@@ -54,7 +54,7 @@ void servo_control(int angle, int motorIndex) {
     mcpwm_operator_t op = MCPWM_OPR_A;
     if (motorIndex == 6)
         op = MCPWM_OPR_B;
-       
+    
     mcpwm_set_duty_in_us(motorConfigs[motorIndex].mcpwm_unit, motorConfigs[motorIndex].mcpwm_timer, op, pulse_width_us);
 }
 
