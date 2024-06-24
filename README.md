@@ -108,11 +108,11 @@ To replicate or modify this project, follow these steps:
 This project was created by Tamir Mhabary. Feel free to contribute by submitting pull requests or reporting issues.
 
 ## Sponsors
-This project is proudly sponsored by [PCBWay](https://www.pcbway.com/).\
-[PCBWay](https://www.pcbway.com/)  provided the manufacturing of the PCB boards and 3D printing services for this project. 
+This project is proudly sponsored by [PCBWay](https://pcbway.com/g/lxAijI).\
+[PCBWay](https://pcbway.com/g/lxAijI)  provided the manufacturing of the PCB boards and 3D printing services for this project. 
 
-[PCBWay](https://www.pcbway.com/)  is a one-stop solution for PCB prototyping, manufacturing, and assembly, as well as 3D printing services. Their high-quality products and excellent customer service make them a top choice for electronics enthusiasts and professionals alike.\
-Visit [PCBWay](https://www.pcbway.com/) for more information on their services and to get started on your own projects!
+[PCBWay](https://pcbway.com/g/lxAijI)  is a one-stop solution for PCB prototyping, manufacturing, and assembly, as well as 3D printing services. Their high-quality products and excellent customer service make them a top choice for electronics enthusiasts and professionals alike.\
+Visit [PCBWay](https://pcbway.com/g/lxAijI) for more information on their services and to get started on your own projects!
 
 ## License
 
