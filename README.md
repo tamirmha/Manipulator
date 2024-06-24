@@ -114,6 +114,8 @@ This project is proudly sponsored by [PCBWay](https://pcbway.com/g/lxAijI).\
 [PCBWay](https://pcbway.com/g/lxAijI)  is a one-stop solution for PCB prototyping, manufacturing, and assembly, as well as 3D printing services. Their high-quality products and excellent customer service make them a top choice for electronics enthusiasts and professionals alike.\
 Visit [PCBWay](https://pcbway.com/g/lxAijI) for more information on their services and to get started on your own projects!
 
+<a href="https://www.pcbway.com/project/shareproject/Manipulator_PCB_435606e7.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, or distribute this code and design for personal or educational purposes.
