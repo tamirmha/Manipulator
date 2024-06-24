@@ -13,6 +13,7 @@ Use [PlatformIO](https://platformio.org/) in Visual Studio Code (VSCode) to mana
 - [Folder Structure](#folder-structure)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Sponsors](#sponsors)
 - [License](#license)
 
 ## Description
@@ -99,12 +100,19 @@ To replicate or modify this project, follow these steps:
    - Use PlatformIO in Visual Studio Code (VSCode) to manage and upload the code
 
 5. **Control**:
-   - Use the RemoteXY library for BLE control, or wire up potentiometers for manual control.
+   - Use the RemoteXY library for BLE control, or wire up potentiometers for manual control
 
 
 ## Credits
 
 This project was created by Tamir Mhabary. Feel free to contribute by submitting pull requests or reporting issues.
+
+## Sponsors
+This project is proudly sponsored by [PCBWay](https://www.pcbway.com/).\
+[PCBWay](https://www.pcbway.com/)  provided the manufacturing of the PCB boards and 3D printing services for this project. 
+
+[PCBWay](https://www.pcbway.com/)  is a one-stop solution for PCB prototyping, manufacturing, and assembly, as well as 3D printing services. Their high-quality products and excellent customer service make them a top choice for electronics enthusiasts and professionals alike.\
+Visit [PCBWay](https://www.pcbway.com/) for more information on their services and to get started on your own projects!
 
 ## License
 
